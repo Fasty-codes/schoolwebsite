@@ -337,7 +337,7 @@ const Gallery = () => {
                             key={index}
                             className="videos"
                         >
-                            <iframe src={item.src} alt={item.alt} style={{ borderRadius: '8px', border: '2px solid #cfcfcfff', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)' }} allow='encrypted-media' width="100%" height="100%" />
+                            <iframe src={item.src} alt={item.alt} style={{ borderRadius: '8px', border: '2px solid #cfcfcfff', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)' }} allow='encrypted-media' width="100%" height="100%" title={item.alt} />
                         </div>
                     ))}
                 </div>

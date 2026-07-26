@@ -1,4 +1,5 @@
-import react from 'react';
+// import react from 'react';
+
 import './Footer.css';
 import { SlSocialFacebook, SlSocialTwitter, SlSocialYoutube, SlSocialInstagram } from "react-icons/sl";
 

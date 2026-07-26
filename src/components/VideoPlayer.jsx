@@ -158,7 +158,7 @@ const VideoPlayer = ({
       containerRef.current?.addEventListener('mousemove', resetTimeout);
       return () => {
         clearTimeout(timeoutId);
-        containerRef.current?.removeEventListener('mousemove', resetTimeout);
+        // containerRef.current?.removeEventListener('mousemove', resetTimeout);
       };
     }
   }, [isPlaying]);

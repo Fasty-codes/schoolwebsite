@@ -1,9 +1,11 @@
-import { React, useRef, useEffect } from 'react';
+import { React } from 'react';
+// import { React, useRef, useEffect } from 'react';
+
 import './AboutPage.css';
-import { FaMouse } from 'react-icons/fa';
+// import { FaMouse } from 'react-icons/fa';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import oldImage from '../assets/images/old.png';
+// import oldImage from '../assets/images/old.png';
 import managerImg from '../assets/images/manager.png';
 import asstImg from '../assets/images/asst.png';
 import secretaryImg from '../assets/images/secretary.png';

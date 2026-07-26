@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './HomePage.css';
 import Hero from '../components/Hero';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import logo from '../assets/images/logo.png';
-import logoJpeg from '../assets/images/logo.jpeg';
-import menuIcon from '../assets/images/menu-icon.png';
-import closeIcon from '../assets/images/close.png';
+import { BrowserRouter  } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import logo from '../assets/images/logo.png';
+// import logoJpeg from '../assets/images/logo.jpeg';
+// import menuIcon from '../assets/images/menu-icon.png';
+// import closeIcon from '../assets/images/close.png';
 import adImage from '../assets/images/slide21.jpg';
-import schoolImage from '../assets/images/slide2.jpg';
+// import schoolImage from '../assets/images/slide2.jpg';
 import schoolBandImage from '../assets/images/slide14.png';
 import exhibitionImage from '../assets/images/slide31.png';
 import extraCurricularImage from '../assets/images/extra.jpg';
@@ -27,7 +28,7 @@ import Header from '../components/Header/Header';
 
 function HomePage() {
     const [showAdPopup, setShowAdPopup] = useState(true);
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     // Close popup after 5 seconds
     useEffect(() => {
